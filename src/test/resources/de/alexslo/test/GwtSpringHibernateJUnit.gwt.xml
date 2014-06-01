@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='de.alexslo.test.GwtSpringHibernate' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/GwtSpringHibernate/sprintGwtServices/contactService" class="de.alexslo.test.server.ContactServiceImpl" />
+
+</module>
